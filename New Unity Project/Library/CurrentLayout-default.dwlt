@@ -75,7 +75,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 124
+=======
+  controlID: 15
+>>>>>>> parent of 727a370... enemy added
 =======
   controlID: 15
 >>>>>>> parent of 727a370... enemy added
@@ -130,7 +134,11 @@ MonoBehaviour:
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 92
+=======
+  controlID: 98
+>>>>>>> parent of 727a370... enemy added
 =======
   controlID: 98
 >>>>>>> parent of 727a370... enemy added
@@ -186,7 +194,11 @@ MonoBehaviour:
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 54
+=======
+  controlID: 48
+>>>>>>> parent of 727a370... enemy added
 =======
   controlID: 48
 >>>>>>> parent of 727a370... enemy added
@@ -349,7 +361,11 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes
+=======
+    - Assets/Assets/Background/Frame
+>>>>>>> parent of 727a370... enemy added
 =======
     - Assets/Assets/Background/Frame
 >>>>>>> parent of 727a370... enemy added
@@ -365,7 +381,11 @@ MonoBehaviour:
     m_SelectedIDs: cc3c0000
     m_LastClickedID: 15564
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ea330000ec330000ee330000f0330000f2330000f4330000f6330000
+=======
+    m_ExpandedIDs: 000000007434000076340000
+>>>>>>> parent of 727a370... enemy added
 =======
     m_ExpandedIDs: 000000007434000076340000
 >>>>>>> parent of 727a370... enemy added
@@ -397,7 +417,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff00000000ea330000ec330000ee330000f0330000f2330000f4330000f6330000
+=======
+    m_ExpandedIDs: ffffffff0000000074340000763400008a3400008c3400009a3400005635000028360000
+>>>>>>> parent of 727a370... enemy added
 =======
     m_ExpandedIDs: ffffffff0000000074340000763400008a3400008c3400009a3400005635000028360000
 >>>>>>> parent of 727a370... enemy added
@@ -524,9 +548,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 24340000
       m_LastClickedID: 0
       m_ExpandedIDs: 6cfbffff
+=======
+      m_SelectedIDs: 30360000
+      m_LastClickedID: 0
+      m_ExpandedIDs: b2f8ffff
+>>>>>>> parent of 727a370... enemy added
 =======
       m_SelectedIDs: 30360000
       m_LastClickedID: 0
