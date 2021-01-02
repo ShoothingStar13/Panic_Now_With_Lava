@@ -9,6 +9,7 @@ TagManager:
   - Lava
   - Snow
   - Wheat
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -48,6 +49,9 @@ TagManager:
     locked: 0
   - name: BackGround
     uniqueID: 2444391223
+    locked: 0
+  - name: Enemy
+    uniqueID: 769920519
     locked: 0
   - name: Player
     uniqueID: 3670422495
