@@ -331,17 +331,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 103224128}
-  - component: {fileID: 103224129}
-  - component: {fileID: 103224130}
-  - component: {fileID: 103224132}
-  - component: {fileID: 103224131}
   m_Layer: 0
   m_Name: DRAGONFLY_P1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &103224128
 Transform:
   m_ObjectHideFlags: 0
@@ -351,106 +347,12 @@ Transform:
   m_GameObject: {fileID: 103224127}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 117177103}
   m_Father: {fileID: 749177916}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &103224129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103224127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  drawGizmos: 1
-  detailedGizmos: 0
-  startEndModifier:
-    addPoints: 0
-    exactStartPoint: 3
-    exactEndPoint: 3
-    useRaycasting: 0
-    mask:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    useGraphRaycasting: 0
-  traversableTags: -1
-  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  graphMask:
-    value: -1
---- !u!114 &103224130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103224127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 2
-  radius: 0.33
-  height: 0.01
-  repathRate: 0.5
-  canSearch: 1
-  canMove: 1
-  maxSpeed: 5
-  gravity: {x: 0, y: 0, z: 0}
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 0
-  centerOffsetCompatibility: NaN
-  orientation: 1
-  enableRotation: 1
-  targetCompatibility: {fileID: 0}
-  maxAcceleration: -2.5
-  rotationSpeed: 20
-  slowdownDistance: 0.6
-  pickNextWaypointDist: 1.2
-  endReachedDistance: 0.2
-  alwaysDrawGizmos: 0
-  slowWhenNotFacingTarget: 0
-  whenCloseToDestination: 0
-  constrainInsideGraph: 0
---- !u!58 &103224131
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103224127}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.18720827, y: -0.008509636}
-  serializedVersion: 2
-  m_Radius: 0.3893771
---- !u!114 &103224132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103224127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  target: {fileID: 954471319}
 --- !u!1 &117177102
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +364,6 @@ GameObject:
   - component: {fileID: 117177103}
   - component: {fileID: 117177104}
   - component: {fileID: 117177105}
-  - component: {fileID: 117177106}
   m_Layer: 0
   m_Name: DRAGONFLY_P1
   m_TagString: Untagged
@@ -553,19 +454,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &117177106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117177102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90079c456c145994eafe90f9831e119d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aiPath: {fileID: 103224130}
 --- !u!1 &156494463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,7 +905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAIIexTL38zegIAACQFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE2TojAQ/StWzqsFCCp720XH2YPj1Lhbc+ESoZGUIaGSMOpM+d+3E1BY92R8/ZH3Xnf4IkzoGjIj1VqxfCNzIN9HxJ7Jt1EffIYzPUixY59wy3lnuSltEnU5b9Qwibhvy7SswCiW/RAHbpM9BBvBCqmqVX6ARGqjES4o14AhJY2tFgh9jcgZf8axLbngKZjb0yeeYm90xWMGwoAapE4n0XwWzBezeDX2Zl2ZN4mncRTEQVe8mMShN4tnmLJwbRqRcVrVkFtNfTf/3iFyaQLVdhlWWSY5Z7qjSsyldlYktNYNCsWEnFGU7vj5kykCJbBDaayQYfm2KDSYzhlFL0um0MO2L/kpW2Mrqo8tsw/KG0fBC0JHq+26+S9h7LtwoWT1fLvY9+wlpmTZ8Y1eMqrNwPohvBxwdw6dKD/SPYf3EsSLXCvZiByDRjW2tNEQLPu/d21JCdmxx1uqD2BT95bfJu1P/Djw4qm/wCHNu7lZQVfnxTnhrNq70YYtsOPS+e92BRRO6heyd5uku76IWkp/NPymh+HKdYEnprTBUCdZWK572SibSlbOQCutMYlUAhzcKahBUG4ur9jGPA70ITa49iHyRO3j6i7vYrc381Di4D7f8x5Cr/J0n5wu5WkDutw2hjMBPWkbeEGfEilEu29DT25lu0YVNBuUHRqW/7tnBEIKYRhARvNoBtF+nAXxYh7NIZxGfuQVU+IWkQnUSflrS7SzB6cm+uYCl+72zRmtFa3d7ueKntbss5JDgkwUcpcpALFtW9yZg8Jb8Jnmq5yhQzswhgk3cPKVEi6zI+Tp/c7USV2djaJp3yUlNfuQxiIpSdxXJiVXcv0LUEsDBBQAAAgIAAAIIexJpg1kbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSqkliqomJUWpyYoqpWappkm6ykaWFual5qomxqaGpQZqxUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAIIexTL38zegIAACQFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAIIexJpg1kbQAAAHgAAAAJACQAAAAAAAAAAAAAAMcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfwMAAAAA
+    dataString: UEsDBBQAAAgIAAAIIewPW87iegIAACYFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE2TojAQ/StWzqsFiCJ720XH2YPj1Lhbc+ESoZGUIaGSMOpM+d+3E1BY14vh9Ufee93wRZjQNWRGqrVi+UbmQL6PiD2Tb6M++AxnepBixz7hlvPOclPaJOpy3qhhEnHflmlZgVEs+yEO3CZ7CDaCFVJVq/wAidRGI1xQrgFDShpbLRD6GpEz/o1jW3LBUxDZ0yeeYm90xWMGwoAapE4nCz+cx1EQrcbevCvzJmFsf9E86MoXkzj05vEckxauUSMyTqsacquq7+ffe8xcmkC9XYbVlknOme7IEnOpnRkJrXWDUjEhZxTFO4b+ZIpACexQGitlWL4tCg2m80bRy5IpdLHtS37K1tqK6mPL7IPyxlHwgtDRartu/ksY+y5cKFk93y72PXuJKVl2fKOXjGozMH8ILwfcnUMnyo90z+G9BPEi10o2IsegUY0tbTQEy/7xri0pITv2eEv1AWzq3vLbrP2JHwdePPUXOKSom5sVdHVenBPOqn073BbYcen8d9sCCif1C9m7XdJdX0QtpT8aftPDcOm6wBNT2mCokyws171slE0lK2egldaYRCoBDu4U1CAoN5dXbGMeB/oQG1z7EHmi9vXqLu9it7fmocTBfb7nPYRe5ek+OV3K0wZ0uW0MZwJ60jbwgj4lUoh234ae3Mp2jSpoNig7NCz/d88IhBTCMICM5rM5zPbjLIgX0SyCcDrzZ14xJW4RmUCdlL+2RDt7cGqiby5w6W5fndFa0drtfq7oac0+KzkkyEQhd5kCENu2xZ05KLwFX9N8lTN0aAfGMOEGTr5SwmV2hDy935k6qauzUTTtu6SkZh/SWCQlifvOpORKrn8BUEsDBBQAAAgIAAAIIexJpg1kbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSqkliqomJUWpyYoqpWappkm6ykaWFual5qomxqaGpQZqxUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAIIewPW87iegIAACYFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAIIexJpg1kbQAAAHgAAAAJACQAAAAAAAAAAAAAAMcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfwMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -1030,7 +918,7 @@ MonoBehaviour:
   manualDebugFloorRoof: 0
   showSearchTree: 0
   unwalkableNodeDebugSize: 0.3
-  logPathResults: 0
+  logPathResults: 1
   maxNearestNodeDistance: 100
   scanOnStartup: 1
   fullGetNearestSearch: 0
@@ -1049,7 +937,7 @@ MonoBehaviour:
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
-  maxFrameTime: 10
+  maxFrameTime: 1
   batchGraphUpdates: 0
   graphUpdateBatchingInterval: 0.2
   euclideanEmbedding:
@@ -1807,16 +1695,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 570811548}
-  - component: {fileID: 570811549}
-  - component: {fileID: 570811550}
+  - component: {fileID: 570811552}
   - component: {fileID: 570811551}
+  - component: {fileID: 570811550}
   m_Layer: 0
   m_Name: BITOL_P1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &570811548
 Transform:
   m_ObjectHideFlags: 0
@@ -1825,50 +1713,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570811547}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.34, y: -3.125, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.33, y: -1.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2087222272}
   m_Father: {fileID: 749177916}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &570811549
-CapsuleCollider2D:
+--- !u!114 &570811550
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570811547}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.016561138, y: 0.13167958}
-  m_Size: {x: 1.386412, y: 0.73664856}
-  m_Direction: 1
---- !u!50 &570811550
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570811547}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 5
-  m_LinearDrag: 1.5
-  m_AngularDrag: 0.05
-  m_GravityScale: 2
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  target: {fileID: 954471319}
 --- !u!114 &570811551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1878,12 +1743,61 @@ MonoBehaviour:
   m_GameObject: {fileID: 570811547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe23dd49496a9cb458b06fc590c80d26, type: 3}
+  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 954471319}
-  agroR: 4
-  moveSpeed: 2
+  version: 2
+  radius: 0.26
+  height: 2
+  repathRate: 0.4
+  canSearch: 1
+  canMove: 1
+  maxSpeed: 2
+  gravity: {x: NaN, y: NaN, z: NaN}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  centerOffsetCompatibility: NaN
+  orientation: 1
+  enableRotation: 0
+  targetCompatibility: {fileID: 0}
+  maxAcceleration: -2.5
+  rotationSpeed: 360
+  slowdownDistance: 0.6
+  pickNextWaypointDist: 2
+  endReachedDistance: 0.2
+  alwaysDrawGizmos: 0
+  slowWhenNotFacingTarget: 1
+  whenCloseToDestination: 0
+  constrainInsideGraph: 0
+--- !u!114 &570811552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570811547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
 --- !u!1 &590284804
 GameObject:
   m_ObjectHideFlags: 0
@@ -2371,16 +2285,13 @@ GameObject:
   - component: {fileID: 661434294}
   - component: {fileID: 661434293}
   - component: {fileID: 661434292}
-  - component: {fileID: 661434295}
-  - component: {fileID: 661434291}
-  - component: {fileID: 661434296}
   m_Layer: 0
   m_Name: DRAGONFLY+BITOL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &661434290
 Transform:
   m_ObjectHideFlags: 0
@@ -2396,22 +2307,6 @@ Transform:
   m_Father: {fileID: 749177916}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &661434291
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661434289}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.4689482, y: -0.708411}
-  serializedVersion: 2
-  m_Radius: 0.3403575
 --- !u!114 &661434292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2490,38 +2385,6 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
---- !u!70 &661434295
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661434289}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.114742115, y: -0.5338035}
-  m_Size: {x: 1.3891295, y: 0.6707395}
-  m_Direction: 1
---- !u!70 &661434296
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661434289}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.11973169, y: 0.049888182}
-  m_Size: {x: 1.0798236, y: 0.40134794}
-  m_Direction: 1
 --- !u!1 &703591581
 GameObject:
   m_ObjectHideFlags: 0
@@ -3275,7 +3138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  MovementSpeed: 6
+  MovementSpeed: 5
   JumpForce: 5
 --- !u!50 &954471317
 Rigidbody2D:
@@ -3297,7 +3160,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!70 &954471318
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5498,7 +5361,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -3.826111}
+  m_Offset: {x: 0, y: -3.8166456}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5509,7 +5372,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 127.61482, y: 0.8377776}
+  m_Size: {x: 127.61482, y: 0.8567085}
   m_EdgeRadius: 0
 --- !u!212 &1716150581
 SpriteRenderer:
@@ -6123,25 +5986,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2087222274
-Animator:
-  serializedVersion: 3
+--- !u!114 &2087222274
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087222271}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 038fab35441544146aa493231ae55dff, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90079c456c145994eafe90f9831e119d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiPath: {fileID: 570811551}
 --- !u!1 &2098795833
 GameObject:
   m_ObjectHideFlags: 0
